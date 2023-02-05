@@ -1,0 +1,20 @@
+{
+    "hosting": {
+        "public": "templates",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ]
+    },
+    "remoteconfig": {},
+    "emulators": {
+        "hosting": {
+            "port": 5000
+        },
+        "ui": {
+            "enabled": true
+        },
+        "singleProjectMode": false
+    }
+}
